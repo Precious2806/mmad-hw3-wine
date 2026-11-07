@@ -35,14 +35,3 @@ StandardScaler и LogisticRegression без весов классов, поро�
 st.cache_resource хранит один объект модели, st.cache_data хранит таблицы и вероятности и возвращает копии данных
 
 При изменении порога вероятности остаются прежними, без декоратора joblib.load читал бы модель заново при каждом действии
-
-## Публикация
-
-Загрузи папку wine_app в GitHub и создай приложение на https://share.streamlit.io, путь к файлу wine_app/app.py
-
-Выбери версию Python, на которой сохранил модель и проверил приложение, после публикации добавь ссылку в ноутбук
-
-## Данные
-
-Wine Quality, P. Cortez et al., 2009, UCI, CC BY 4.0
-https://archive.ics.uci.edu/dataset/186/wine+quality
